@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <hr>
 
 create .env file and store your newsapi api_key & api_url.\
+
 REACT_APP_NEWS_API_KEY  = `"YOUR_API_KEY"` \
 REACT_APP_NEWS_API_URL = `"https://newsapi.org/v2/"` 
 <hr>
