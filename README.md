@@ -1,6 +1,4 @@
 # NEWS READER APP
-[news reader app](https://niththish-news-reader.netlify.app)
-<hr>
 
 create .env file and store your newsapi api_key & api_url
 
