@@ -1,5 +1,5 @@
 # NEWS READER APP
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[news reader app](https://niththish-news-reader.netlify.app)
 <hr>
 
 create .env file and store your newsapi api_key & api_url
