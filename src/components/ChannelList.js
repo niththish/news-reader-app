@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/channelList.css";
+import ChannelCard from "./Channelcard";
 
 const ChannelList = () => {
   const [sources, setSources] = useState();
@@ -15,6 +16,12 @@ const ChannelList = () => {
   return (
     <div className="container">
       <h4 className="list-header">Available Sources</h4>
+      <div className="channel-cards">
+        {sources &&
+          sources.map((source) => {
+            return <ChannelCard key={source.id} source={source} />;
+          })}
+      </div>
     </div>
   );
 };

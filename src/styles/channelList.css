@@ -1,6 +1,6 @@
 .container {
   width: 90%;
-  max-width: 750px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -10,4 +10,55 @@
   margin: 20px 0;
   font-size: 1rem;
   text-decoration: underline #c100a2 2px;
+}
+
+.channel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.channel-card {
+  position: relative;
+  width: 100%;
+  min-height: 75px;
+  box-shadow: 0px 0px 25px rgba(195, 195, 195, 25%);
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.channel-name {
+  color: #22279c;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.channel-description {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.top-fixed-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #c100a2;
+}
+
+.top-fixed-info > * {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .channel-card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .channel-card {
+    width: 30%;
+  }
 }
