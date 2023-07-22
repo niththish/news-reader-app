@@ -8,6 +8,7 @@ const NewsContext = ({ children }) => {
 
   useEffect(() => {
     const url = `${process.env.REACT_APP_NEWS_API_URL}everything?q=${searchText}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`;
+    console.log(url);
     const controller = new AbortController();
     const signal = controller.signal;
 
