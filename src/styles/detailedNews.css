@@ -11,23 +11,19 @@
   font-weight: bold;
 }
 
-.author-info {
-  margin-top: 15px;
-}
-
 .author-info p {
-  font-size: 18px;
   margin-bottom: 5px;
-  color: #565555;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #c100a2;
+  font-weight: bolder;
 }
-
-.author-info p span {
-  font-weight: bold;
+.date {
+  font-size: 0.7rem !important;
 }
 
 .detailed-news-image {
   margin: 20px auto;
-  width: 95%;
   height: 300px;
 }
 
@@ -40,11 +36,11 @@
 
 .detailed-news-content p {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .detailed-news-content a {
   text-decoration: none;
-  color: #525489;
+  color: #22279c;
   font-weight: bold;
 }
