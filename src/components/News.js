@@ -10,14 +10,16 @@ const News = () => {
 
   return (
     <>
-      <div className="article-header">
-        {searchText ? <h4>Articles on {searchText}</h4> : <h4>Headlines</h4>}
-      </div>
       <div className="news-cards">
         {newsData ? (
-          newsData.map((data, index) => {
-            return <NewsCard key={index} data={data} />;
-          })
+          <>
+            <div className="article-header">
+              {searchText ? <h4>Articles on {searchText}</h4> : ""}
+            </div>
+            {newsData.map((data, index) => {
+              return <NewsCard key={index} data={data} />;
+            })}
+          </>
         ) : (
           <Headlines />
         )}

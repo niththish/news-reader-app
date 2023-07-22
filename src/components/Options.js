@@ -62,10 +62,13 @@ const Options = ({ setCountry }) => {
       style={{
         border: "none",
         borderRadius: "5px",
-        boxShadow: "2px 2px 5px #c3c3c3",
-        padding: "1px 5px",
+        boxShadow: "rgba(195, 195, 195,25%) 1px 1px 10px",
+        padding: "1px 8px",
         marginLeft: "10px",
         outline: "none",
+        color: "#C100A2",
+        fontSize: "15px",
+        fontWeight: "bold",
       }}
     >
       {options.map((option) => {

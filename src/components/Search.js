@@ -12,7 +12,7 @@ const Search = () => {
         placeholder="type here to search"
         onChange={(e) => getNewsData(e.target.value)}
       />
-      <i class="fa fa-search search-icon" aria-hidden="true"></i>
+      <i className="fa fa-search search-icon" aria-hidden="true"></i>
     </div>
   );
 };

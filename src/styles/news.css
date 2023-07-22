@@ -1,6 +1,6 @@
 .news-cards {
   width: 90%;
-  max-width: 600px;
+  max-width: 750px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -8,14 +8,20 @@
   align-items: center;
 }
 
-.article-header {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 15px;
+.article-header,
+.headline-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 750px;
+  padding: 0 10px;
+  margin: 20px 0;
 }
 
 .article-header h4 {
+  color: #22279c;
+  font-weight: bolder;
+  font-size: 1rem;
   display: inline;
   position: relative;
 }

@@ -20,11 +20,14 @@ const Headlines = () => {
 
   return (
     <>
-      <div style={{ alignSelf: "start", marginBottom: "15px" }}>
-        <span style={{ color: "#525489", fontWeight: "bold" }}>
-          Select country:
-        </span>{" "}
-        <Options setCountry={setCountry} />
+      <div
+        className="headline-header"
+        style={{ color: "#22279c", fontWeight: "bold" }}
+      >
+        <h4>Headlines</h4>
+        <div>
+          <span>country:-</span> <Options setCountry={setCountry} />
+        </div>
       </div>
       {
         <div className="news-cards">
