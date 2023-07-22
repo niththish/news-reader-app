@@ -6,7 +6,9 @@ const NewsCard = React.memo(({ data }) => {
   return (
     <Link to="/detailed-news" state={{ data: data }} className="news-card">
       <img src={data.urlToImage || defaultImage} />
-      <h5>{data.title}</h5>
+      <div className="news-title">
+        <h5>{data.title}</h5>
+      </div>
     </Link>
   );
 });
