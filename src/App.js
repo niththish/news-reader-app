@@ -5,6 +5,7 @@ import DetailedNews from "./components/DetailedNews";
 import NewsContext from "./context/NewsContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ChannelList from "./components/ChannelList";
+import ChannelNews from "./components/ChannelNews";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           />
           <Route path="/detailed-news" element={<DetailedNews />} />
           <Route path="/channel-list" element={<ChannelList />} />
+          <Route path="/channel-list/:id" element={<ChannelNews />} />
         </Routes>
       </Router>
     </div>
