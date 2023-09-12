@@ -16,9 +16,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 <hr>
 
-### inital design
+### design
 <img src="https://raw.githubusercontent.com/niththish/Designs/main/news%20reader%20app.png">
 <hr>
 
-### NOTE
-This is not the final appearance of the project, The final appearance contains more and relevant information.
